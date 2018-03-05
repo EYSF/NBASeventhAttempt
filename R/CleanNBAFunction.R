@@ -1,3 +1,15 @@
+#' A Function to Find Highest Scoring NBA Player by Year, Oldest NBA Player by Year, and a Correlation Matric of Numeric Data per Year
+#'
+#' This function allows you to Find Oldest NBA Player by Year
+#' @param yearinput
+#' @keywords nba,highest, oldest, correlation
+#' @export
+#' @examples
+#' HighestScorerPerYear()
+#' OldestScorerPerYear()
+#' CorMatrixNumData()
+
+
 library(dplyr)
 
 Yearinput<-1990
