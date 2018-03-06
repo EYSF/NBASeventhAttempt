@@ -8,15 +8,13 @@
 #' CorMatrixNumData()
 
 
-library(dplyr)
 
 
-library(purrr)
 Yearinput<-1990
 
 CorMatrixNumData<-function(Yearinput){
 
-  NBAnum<- sapply(Seasons_Stats, is.numeric)
-  NBAnumdata<- keep(Seasons_Stats, NBAnum)
+  NBAnum<- purrr::sapply(Seasons_Stats, is.numeric)
+  NBAnumdata<- purrr::keep(Seasons_Stats, NBAnum)
   cor(NBAnumdata)
 }
