@@ -9,7 +9,6 @@
 
 
 
-Yearinput<-1990
 
 HighestScorerPerYear<-function(Yearinput){
 
