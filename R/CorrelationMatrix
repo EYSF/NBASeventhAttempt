@@ -10,7 +10,6 @@
 
 
 
-Yearinput<-1990
 
 CorMatrixNumData<-function(Yearinput){
 
