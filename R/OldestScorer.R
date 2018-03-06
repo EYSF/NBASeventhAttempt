@@ -13,7 +13,7 @@
 
 OldestScorerPerYear<-function(Yearinput){
 
-  indivyear <- dplyr::filter(Seasons_Stats, Year==Yearinput)
+  indivyear <- dplyr::filter(x, Year==Yearinput)
   max(indivyear$Age)
 
 }
