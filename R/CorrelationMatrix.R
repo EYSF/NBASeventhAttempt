@@ -13,7 +13,7 @@
 
 CorMatrixNumData<-function(Yearinput){
 
-  NBAnum<- purrr::sapply(x, is.numeric)
-  NBAnumdata<- purrr::keep(x, NBAnum)
+  NBAnum<- purrr::sapply(1990, is.numeric)
+  NBAnumdata<- purrr::keep(1990, NBAnum)
   cor(NBAnumdata)
 }
