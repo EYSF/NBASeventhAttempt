@@ -13,7 +13,7 @@
 
 OldestScorerPerYear<-function(Yearinput){
 
-  indivyear <- dplyr::filter(x, Year==Yearinput)
+  indivyear <- dplyr::filter(1990, Year==Yearinput)
   max(indivyear$Age)
 
 }
